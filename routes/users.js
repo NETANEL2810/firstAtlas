@@ -6,7 +6,7 @@ const {auth} = require("../middlewares/auth");
 const router = express.Router();
 
 router.get("/" , async(req,res)=> {
-  res.json({msg:"users endpoint work"})
+  res.json({msg:"users endpoint work perfect!!!!"})
 })
 
 router.get("/userInfo",auth, async(req,res) => {
